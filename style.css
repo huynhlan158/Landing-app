@@ -573,38 +573,20 @@ header label #close{
 }
 /* footer section ends */
 
+/* media queries start */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queries */
-
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:450px){
     html{
-        font-size: 55%;
+        font-size: 50%;
     }
-}
 
-@media only screen and (max-width:991px){
-    section{
-        padding: 0 3%;
+    .about .column .content .buttons a{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .column .content .buttons a:last-child{
+        margin: 1rem 0;
     }
 }
 
@@ -668,17 +650,15 @@ header label #close{
     }
 }
 
-@media only screen and (max-width:450px){
-    html{
-        font-size: 50%;
-    }
-
-    .about .column .content .buttons a{
-        width: 100%;
-        text-align: center;
-    }
-
-    .about .column .content .buttons a:last-child{
-        margin: 1rem 0;
+@media only screen and (max-width:991px){
+    section{
+        padding: 0 3%;
     }
 }
+
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+/* media queries end */
